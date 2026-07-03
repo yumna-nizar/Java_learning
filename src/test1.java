@@ -1,14 +1,15 @@
 public class test1 {
 
-    int MAXValue=2147483647;
-    int MINValue=-2147483648;
+    int Octalnum=037;
+    int Hexamnum=0xAF;
+    int Binarynum=0B1010;
 
      void display()
     {
-        MAXValue=MAXValue+1;//overflow condition
-        MINValue=MINValue-1;
-        System.out.println(MAXValue);
-        System.out.println(MINValue);
+        System.out.println("octal number is = "+Octalnum);
+        System.out.println("hexadecimal number is = "+Hexamnum);
+        System.out.println("binary number is = "+Binarynum);
+
     }
     public static void main(String[] args)
     {
