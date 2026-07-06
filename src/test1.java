@@ -1,14 +1,14 @@
 public class test1 {
 
-    int Octalnum=037;
-    int Hexamnum=0xAF;
-    int Binarynum=0B1010;
+ int c=4;
+
+
+
+
 
      void display()
     {
-        System.out.println("octal number is = "+Octalnum);
-        System.out.println("hexadecimal number is = "+Hexamnum);
-        System.out.println("binary number is = "+Binarynum);
+       System.out.println(c);
 
     }
     public static void main(String[] args)
