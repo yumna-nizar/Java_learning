@@ -10,36 +10,18 @@ public class SwitchDemo {
 
         System.out.println("Enter a number from 1 to 7: ");
         choice = scanner.nextInt();
-   //order of complexity of switch statements is O(1)
-        switch (choice) {   // selector expression
+        Integer wrapperInttype=Integer.valueOf(choice);
+        switch (wrapperInttype) {   // selector expression
 
-            case 1:
-                System.out.println("Monday.");
+            case 1,2,3,4,5:
+                System.out.println("weekdays");
                 break;
 
-            case 2:
-                System.out.println("Tuesday.");
+
+            case 6,7:
+                System.out.println("weekend.");
                 break;
 
-            case 3:
-                System.out.println("Wednesday.");
-                break;
-
-            case 4:
-                System.out.println("Thursday.");
-                break;
-
-            case 5:
-                System.out.println("Friday.");
-                break;
-
-            case 6:
-                System.out.println("Saturday.");
-                break;
-
-            case 7:
-                System.out.println("Sunday.");
-                break;
 
             default:
                 System.out.println("Invalid Day Choice.");
